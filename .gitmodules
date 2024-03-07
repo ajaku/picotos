@@ -4,6 +4,3 @@
 [submodule "pico-sdk"]
 	path = pico-sdk
 	url = git@github.com:raspberrypi/pico-sdk.git
-[submodule "openocd"]
-	path = openocd
-	url = git@github.com:openocd-org/openocd.git
