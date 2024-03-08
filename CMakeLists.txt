@@ -7,6 +7,8 @@ project(picotos C CXX ASM)
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_CXX_STANDARD 17)
 
+set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0")
+set(CMAKE_C_FLAGS_DEBUG "${CMAKE_C_FLAGS_DEBUG} -O0")
 
 # Initialize the SDK
 pico_sdk_init()
@@ -14,8 +16,3 @@ pico_sdk_init()
 add_subdirectory(project-files)
 add_subdirectory(freertos)
 
-
-add_compile_options(-Wall
-        -Wno-format
-        -Wno-unused-function
-        )
