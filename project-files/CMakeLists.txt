@@ -1,6 +1,6 @@
-add_executable(blink
-        main.c
+add_executable(tasking
+        tasking.c
 )
 
-target_link_libraries(blink pico_stdlib freertos)
-pico_add_extra_outputs(blink)
+target_link_libraries(tasking pico_stdlib freertos)
+pico_add_extra_outputs(tasking)
