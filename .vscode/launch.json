@@ -18,6 +18,10 @@
                 "break main",
                 "continue"
             ],
+            "liveWatch": {
+                "enabled": true,
+                "samplesPerSecond": 4
+              },
         }
     ]
 }
